@@ -72,6 +72,7 @@ CProbPoSProvidedThatTheSubwordAtTheEnd** ColculateProbPoSProvidedThatTheSubwordA
 	CListElem<CSubwordThisPoSWithQuantity>* pointer4 = listOfTheSubwordsAtTheEndPoS[4]->GetBegin();
 
 	int* sum = 0;
+	sum = 1;
 	sum = 0;
 	for (int i = 0; i < listOfTheSubwordsAtTheEndPoS[0]->GetSize(); i++)
 	{
